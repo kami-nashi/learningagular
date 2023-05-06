@@ -3,7 +3,7 @@
   <head>
     <title>SkateTrax</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   </head>
   <body>
   <div [ngStyle]="{backgroundImage:'url(assets/images/skates.jpg), background-repeat: no-repeat, background-size: cover, background-position: center center, background-color: #000000, resize: both'}">
@@ -19,7 +19,15 @@
             <div class="card-body no-wrap">
               <h1 class="card-title text-center">Welcome to SkateTrax!</h1>
             </div>
-            <div class="card-body text-center">Click <a href="/login">here</a> to go login!</div>
+            <div style="text-align:center">
+              <nav style="display: flex;justify-content: space-evenly;">
+                <a routerLink="/"  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+                <a routerLink="/login" routerLinkActive="active">Login Here</a>
+                <a routerLink="/signup" routerLinkActive="active">Sign Up!</a>
+              </nav>
+            
+              <router-outlet></router-outlet>
+            </div>
           </div>
         </div>
         </div>

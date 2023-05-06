@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
  */
 
+ .active{
+  color: #e4cf11;
+  background-color: #161414;
+  padding: 10px;
+}
+
  html {
     position: relative;
     min-height: 100%;
