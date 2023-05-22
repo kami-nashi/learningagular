@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Added routes, custom CSS file. Followed things:
 https://medium.com/codingthesmartway-com-blog/using-bootstrap-with-angular-c83c3cee3f4a
 https://reactgo.com/angular-routing/
+https://buddy.works/tutorials/creating-your-first-landing-page-template-in-bootstrap
 
 ## File changes
 app.component.html, app.modules.ts, index.html
